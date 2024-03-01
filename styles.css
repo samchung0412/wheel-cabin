@@ -52,7 +52,7 @@
     transform-origin: 50% 0%;
     animation: cabins 10s ease-in-out infinite;
 }
-
+/* the keywords nth-of-type can count the element appearance to idenify the element */
 .cabin:nth-of-type(1) {
     right: -8.5%;
     top: 50%;
@@ -83,6 +83,7 @@
     top: 7%;
 }
 
+/* the keyframes is for the animation set the 0 to 100% */
 @keyframes wheel {
     0% {
         transform: rotate(0deg);
